@@ -1,0 +1,8 @@
+{
+  "name": "figma-plugin-react-ts-template",
+  "id": "1003893559181035372",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "editorType": ["figma"]
+}

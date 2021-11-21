@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2017", "dom"],
+    "strict": false,
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@figma",
+      "./typings"
+    ],
+    "baseUrl": "./",
+    "noImplicitUseStrict": true,
+    "paths": {
+      "@constants": ["src/constants"],
+    }
+  }
+}
